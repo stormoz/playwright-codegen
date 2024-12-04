@@ -6,7 +6,9 @@ NB: this approach is good as an introduction to browser automation for a team th
 - Install Node Js: https://nodejs.org/en
 - Run in terminal (to validate the install): `npx --version`
 - Pull this repository (copy code)
-- Run in terminal at the root folder of the cloned repository: `npm install`
+- Run in terminal at the root folder of the cloned repository:
+  - `npx playwright install`
+  - `npm install`
 
 ## Recording tests
 - Run in terminal (to start test recorder/generator): `npx playwright codegen https://example.com` (where https://example.com is your web application url)

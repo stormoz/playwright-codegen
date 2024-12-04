@@ -15,7 +15,7 @@ NB: this approach is good as an introduction to browser automation for a team th
   - It starts two Chromium windows: browser and recorder
   - Arrange the windows so you can see both windows
   - NB: recording starts automatically
-- Start testing actions in the browser window (you should see elements highlighting if recording is working properly)
+- Start testing activities in the browser window (you should see elements highlighting if recording is working properly)
 - Use "Assert value" button for assertions as required
 - Once done the recording, copy the generated JS code from the recorder window to clipboard
 - Create a file with a name explaining a test case (consider organising by feature folders, e.g. tests/my-feature1/my-scenario.test.js), and paste the previously copied test code into the file, save the file
